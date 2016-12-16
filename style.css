@@ -1,0 +1,51 @@
+html {
+	font-family: Oswald, Calibri;
+	font-size: 24px;
+	color: #FBF8EF;
+	background-color: rgb(23,23,23);
+	text-shadow:
+	-1px -1px 0px #000000,
+	-1px 1px 0px #000000,
+	1px -1px 0px #000000,
+	1px 1px 0px #000000;
+}
+
+/* Buttons */
+.dropbtn {
+	background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+	font-family: Oswald, Calibri;
+	width: 100px;
+	height: 28px;
+	letter-spacing: 0.5px;
+    font-size: 16px;
+	border: 0px;
+    cursor: pointer;
+	transition: all .3s ease;
+}
+.dropbtn:hover {
+	background-color: rgba(0,0,0,1);
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	text-align: right;
+	width: 150px;
+	transition: all .3s ease;
+}
+#main {
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	width: 720px;
+}
+t1 {
+	font-Size: 48px;
+	font-family: Oswald;
+	color: #FFFFFF;
+	text-shadow:
+	-1px -1px 0px #000000,
+	-1px 1px 0px #000000,
+	1px -1px 0px #000000,
+	1px 1px 0px #000000,
+	-5px -3px 0px rgba(255,0,128,0.75),
+	3px 5px 0px rgba(0,255,255,0.75);
+}
